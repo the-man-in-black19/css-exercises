@@ -1,0 +1,24 @@
+/* class and ID selectors
+
+1) All odd numbered elements: a light red/pink background, and a list of fonts containing Verdana and DejaVu Sans with sans-serif as a fallback
+2) The second element: blue text and a font size of 36px
+3) The third element: in addition to the styles for all odd numbered elements, add a font size of 24px */
+
+.first-class {
+    background-color: #FF9999;
+    font-family: Verdana, DeJaVu;
+}
+
+.first-class.second-class {
+    background-color: yellow;
+}
+
+
+#div-id {
+    color: orange;
+    font-size: 36px;
+}
+
+#another-ID {
+    font-size: 24px;
+}
